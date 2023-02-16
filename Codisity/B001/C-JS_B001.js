@@ -1,5 +1,5 @@
 const dog = { paws: 4 };
-const cat = dog;
+const cat = { ...dog };
 
 cat.meow = true;
 
