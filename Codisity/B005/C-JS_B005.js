@@ -1,6 +1,6 @@
 function addToArray(item, array) {
 	const newArray = array;
-	newArray.push(item);
+	newArray.concat(item);
 
 	return newArray;
 }
