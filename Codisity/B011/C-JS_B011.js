@@ -8,10 +8,13 @@ function getUserPermission(user) {
 	switch (user.role) {
 		case "reader":
 			permission = "can read";
+			break;
 		case "writer":
 			permission = "can write";
+			break;
 		case "admin":
 			permission = "can everything";
+			break;
 	}
 
 	return permission;
