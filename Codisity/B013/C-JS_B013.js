@@ -8,7 +8,7 @@ document.body.innerHTML = `
 
 const lis = document.querySelectorAll("li");
 
-lis.map(li => {
+lis.forEach(li => {
 	const updatedText = li.innerText.replace("Item", "Element");
 
 	li.innerText = updatedText;
