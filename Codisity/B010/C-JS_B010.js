@@ -1,8 +1,7 @@
 function returnDummyObject() {
-	return;
-	{
-		foo: "bar";
-	}
+	return {
+		foo: "bar",
+	};
 }
 
 console.log(returnDummyObject());
