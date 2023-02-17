@@ -7,6 +7,6 @@ const Car = {
 
 Car.drive();
 
-const driveMyCar = Car.drive;
+const driveMyCar = Car.drive.bind(Car);
 
 driveMyCar();
