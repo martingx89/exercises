@@ -5,4 +5,4 @@ const user2 = {
 	name: "John",
 };
 
-console.log(user1 == user2);
+console.log(JSON.stringify(user1) === JSON.stringify(user2));
