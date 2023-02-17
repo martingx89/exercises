@@ -3,7 +3,7 @@ function Car(color) {
 	this.mileage = 0;
 }
 
-Car.prototype.drive = distance => {
+Car.prototype.drive = function (distance) {
 	this.mileage += distance;
 };
 
