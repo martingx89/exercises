@@ -5,6 +5,6 @@ function reducer(accumulator, currentValue) {
 }
 
 const numbers = [1, 2, 3];
-const sum = numbers.reduce(reducer);
+const sum = numbers.reduce(reducer, 0);
 
 console.log(sum);
