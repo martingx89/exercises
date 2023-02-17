@@ -1,5 +1,7 @@
-function sum(a, a, c) {
-	return a + a + c;
+"use strict";
+
+function sum(a, b, c) {
+	return a + b + c;
 }
 
 console.log(sum(5, 10, 15));
