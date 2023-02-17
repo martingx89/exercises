@@ -1,5 +1,4 @@
-function addTax(price, tax) {
-	tax = tax || 0.23;
+function addTax(price, tax = 0.23) {
 	return price + price * tax;
 }
 
