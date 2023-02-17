@@ -1,5 +1,4 @@
 const myDog = new Dog();
-const myCat = new Cat();
 
 function Dog() {
 	this.name = "Pluto";
@@ -10,6 +9,7 @@ class Cat {
 		this.name = "Garfield";
 	}
 }
+const myCat = new Cat();
 
 console.log(myDog.name);
 console.log(myCat.name);
