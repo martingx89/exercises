@@ -12,10 +12,10 @@ let greeting = new greet();
 console.log('object' === typeof firstName); //true
 console.log('object' === typeof lastName); //false
 console.log('object' === typeof user); //true
-console.log('object' === typeof numbers); //false
+console.log('object' === typeof numbers); //true
 console.log('object' === typeof empty); //true
 console.log('object' === typeof nothing); //false
-console.log('object' === typeof greet); //true
+console.log('object' === typeof greet); //false
 console.log('object' === typeof greeting); //true
 
 // Które z powyższych porównań zwrócą prawdę, a które fałsz?
