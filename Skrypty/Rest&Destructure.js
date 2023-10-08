@@ -9,12 +9,12 @@ const person = {
 };
 
 const {
-  city: { population, name },
+  city: { population, name: cityName },
   name: personName,
   ...personInfo
 } = person;
 
 console.log(population);
-console.log(name);
+console.log(cityName);
 console.log(personName);
 console.log(personInfo);
