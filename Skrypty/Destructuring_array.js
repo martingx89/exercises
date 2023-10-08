@@ -5,7 +5,7 @@ const getPersonInfo = (person) => {
   // const age = person[1];
   // const city = person[2];
 
-  const [name, age, city] = person;
+  const [name, age, city] = person; //kolejność ma znaczenie!
 
   return `Imię: ${name}, wiek: ${age}, miasto: ${city}`;
 };
