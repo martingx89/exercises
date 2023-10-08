@@ -8,9 +8,11 @@ const person = {
   id: 2549,
 };
 
-const { id, ...personInfo } = person; //rest operator musi być na końcu
 const {
-  city: { population },
+  city: { population, name },
+  ...personInfo
 } = person;
 
 console.log(population);
+console.log(name);
+console.log(personInfo);
