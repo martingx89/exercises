@@ -5,9 +5,9 @@ const getPersonInfo = (person) => {
   // const age = person[1];
   // const city = person[2];
 
-  const [name, age, city] = person; //kolejność ma znaczenie!
+  const [name, , city] = person; //kolejność ma znaczenie!
 
-  return `Imię: ${name}, wiek: ${age}, miasto: ${city}`;
+  return `Imię: ${name}, miasto: ${city}`;
 };
 
 console.log(getPersonInfo(FILIP));
