@@ -10,9 +10,11 @@ const person = {
 
 const {
   city: { population, name },
+  name: personName,
   ...personInfo
 } = person;
 
 console.log(population);
 console.log(name);
+console.log(personName);
 console.log(personInfo);
