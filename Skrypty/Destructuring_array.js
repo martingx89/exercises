@@ -1,7 +1,11 @@
 const FILIP = ['Filip', 29, 'Kraków'];
 
 const getPersonInfo = (person) => {
-  return `Imię: ${person[0]}, wiek: ${person[1]}, miasto: ${person[2]}`;
+  const name = person[0];
+  const age = person[1];
+  const city = person[2];
+
+  return `Imię: ${name}, wiek: ${age}, miasto: ${city}`;
 };
 
 console.log(getPersonInfo(FILIP));
