@@ -1,6 +1,6 @@
-const FILIP = { name: 'Filip', age: '29', city: 'Kraków' };
+const FILIP = { name: 'Filip', age: '29' };
 
-const getPersonalInfo = ({ name, age, city }) => {
+const getPersonalInfo = ({ name, age, city = 'Warszawa' }) => {
   return `Imię: ${name}, wiek: ${age}, miasto: ${city}`;
 };
 
