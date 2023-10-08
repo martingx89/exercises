@@ -3,7 +3,7 @@ const people = [
   ['Kacper', 30],
 ];
 
-const [personOne, personTwo] = people;
+const [[personOneName, personOneAge], personTwo] = people;
 
-console.log(personOne);
+console.log(personOneName, personOneAge);
 console.log(personTwo);
